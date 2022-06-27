@@ -9,7 +9,7 @@ using IdentityRole = Microsoft.AspNetCore.Identity.IdentityRole;
 
 namespace CmsShoppingCart.Areas.Admin.Controllers
 {
-  //  [Authorize(Roles = "admin")]
+    [Authorize(Roles = "Admin")]
     [Area("Admin")]
     public class RolesController : Controller
     {       
